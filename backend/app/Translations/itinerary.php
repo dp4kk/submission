@@ -23,6 +23,10 @@ return [
         'note_3'            => 'Online check-in usually opens 24–48 hours before departure.',
         'note_4'            => 'If you have any questions, reach us at support@everest.travel.',
         'footer'            => 'This document is not a boarding pass. Please check in online or at the airport.',
+         'email_subject'  => 'Your Flight Itinerary – :ref',
+    'email_greeting' => 'Dear :name,',
+    'email_intro'    => 'Please find your flight itinerary attached as a PDF.',
+    'email_footer'   => 'Thank you for booking with Everest Travel. Have a great flight!',
     ],
     'de' => [
         'emergency_contact' => 'NOTFALLKONTAKT',
@@ -46,5 +50,9 @@ return [
         'note_3'            => 'Der Online-Check-in öffnet in der Regel 24–48 Stunden vor dem Abflug.',
         'note_4'            => 'Bei Fragen erreichen Sie uns unter support@everest.travel.',
         'footer'            => 'Dieses Dokument ist kein Bordkarte. Bitte checken Sie online oder am Flughafen ein.',
+        'email_subject'  => 'Ihre Reiseroute – :ref',
+    'email_greeting' => 'Sehr geehrte/r :name,',
+    'email_intro'    => 'Bitte finden Sie Ihre Reiseroute als PDF im Anhang.',
+    'email_footer'   => 'Vielen Dank für Ihre Buchung bei Everest Travel. Guten Flug!',
     ],
 ];

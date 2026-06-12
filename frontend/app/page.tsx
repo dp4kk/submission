@@ -236,7 +236,7 @@ const onSubmit: SubmitHandler<BookingFormData> = async (data) => {
       }, 4000);
     }
   } catch (error: unknown) {
-
+      console.log(error)
     if (axios.isAxiosError(error)) {
 
       // Laravel validation error
